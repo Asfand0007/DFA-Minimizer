@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+#custom files
+dfa
+dfa.png
+minimisedDFA
+minimisedDFA.png
+
 # Distribution / packaging
 .Python
 build/

@@ -9,10 +9,27 @@ DFA Minimizer is a Python-based tool designed to minimize Deterministic Finite A
 - Visual representation of DFA diagrams for enhanced understanding.
 
 **Usage:**
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine using `https://github.com/Asfand0007/DFA-Minimizer.git`.
 2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Run the main script using `python main.py`.
-4. Utilize the GUI to input DFAs and observe their minimization.
+3. Create and activate a virtual environment (optional):
+   - On Linux/Unix:
+     ```
+     python3 -m venv env          # Create virtual environment
+     source env/bin/activate      # Activate virtual environment
+     ```
+   - On Windows:
+     ```
+     python -m venv env           # Create virtual environment
+     .\env\Scripts\activate       # Activate virtual environment
+4. Run the main script using `python main.py`.
+5. Utilize the GUI to input DFAs and observe their minimization.
+
+**Graphviz Installation:**
+Sometimes, the `graphviz` Python package may encounter issues, requiring you to install Graphviz separately and add it to your environment PATH variables. Here's how you can do it:
+- Download and install Graphviz from the official website: [Graphviz Download](https://www.graphviz.org/download/)
+- Follow the installation instructions for your operating system.
+- After installing Graphviz, add its bin directory to your system's PATH environment variable. This allows Python to locate Graphviz executables.
+- For detailed instructions on adding Graphviz to PATH, refer to the [official documentation](https://www.graphviz.org/doc/info/command.html#installation).
 
 **Acknowledgements:**
 - Tkinter library: [https://docs.python.org/3/library/tkinter.html](https://docs.python.org/3/library/tkinter.html)
