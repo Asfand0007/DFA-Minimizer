@@ -10,8 +10,7 @@ DFA Minimizer is a Python-based tool designed to minimize Deterministic Finite A
 
 **Usage:**
 1. Clone the repository to your local machine using `https://github.com/Asfand0007/DFA-Minimizer.git`.
-2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Create and activate a virtual environment (optional):
+2. Create and activate a virtual environment (optional):
    - On Linux/Unix:
      ```
      python3 -m venv env          # Create virtual environment
@@ -21,6 +20,7 @@ DFA Minimizer is a Python-based tool designed to minimize Deterministic Finite A
      ```
      python -m venv env           # Create virtual environment
      .\env\Scripts\activate       # Activate virtual environment
+3. Install the required dependencies using `pip install -r requirements.txt`.
 4. Run the main script using `python main.py`.
 5. Utilize the GUI to input DFAs and observe their minimization.
 
